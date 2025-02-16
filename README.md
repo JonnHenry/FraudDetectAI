@@ -1,17 +1,15 @@
 
 # FraudDetectAI: Banking Account Fraud Prevention
 
+![ML Fraud Detection](https://img.shields.io/badge/Machine%20Learning-Fraud%20Detection-blue)
+
 **FraudDetectAI** es un proyecto de machine learning cuyo objetivo es detectar el fraude en la apertura de cuentas bancarias utilizando un conjunto de datos sintéticos generados por un CTGAN entrenado con datos anonimizados del mundo real. Este proyecto proporciona una solución basada en modelos predictivos para identificar posibles fraudes en las solicitudes de apertura de cuentas bancarias.
 
-## Descripción
-
-El conjunto de datos utilizado tiene el propósito de crear un modelo de machine learning para detectar patrones de fraude en la apertura de cuentas bancarias. Cada instancia en el conjunto de datos representa una solicitud de apertura de cuenta bancaria y contiene características diseñadas para simular situaciones reales de fraude.
-
-## Objetivo
+## 🚀 Objetivo
 
 El objetivo principal de **FraudDetectAI** es construir un modelo de machine learning que pueda predecir y clasificar solicitudes de apertura de cuentas bancarias como fraudulentas o no fraudulentas, ayudando a las instituciones financieras a prevenir y detectar actividades fraudulentas.
 
-## Tecnologías utilizadas
+## 📌 Tecnologías utilizadas
 
 - **Python**: Lenguaje de programación principal para el desarrollo del proyecto.
 - **Scikit-learn**: Biblioteca de machine learning para el desarrollo de los modelos.
@@ -19,20 +17,20 @@ El objetivo principal de **FraudDetectAI** es construir un modelo de machine lea
 - **Matplotlib / Seaborn**: Bibliotecas para visualización de datos.
 - **Jupyter Notebooks**: Entorno interactivo para el desarrollo y la documentación del modelo.
 
-## Instalación
+## 🛠️ Instalación
 
 Para ejecutar este proyecto, es necesario tener instalado Python y las siguientes dependencias. Puedes instalar las dependencias utilizando `pip` o `conda`:
 
 ### Usando pip:
 ```bash
-pip install -r requirements.txt
+pip install -r config/requirements.txt
 ```
 
 ### Usando conda:
 ```bash
 conda create --name fraud-detect-ai python=3.x
 conda activate fraud-detect-ai
-conda install --file requirements.txt
+conda install --file config/requirements.txt
 ```
 
 ## 📂 Estructura del Proyecto
