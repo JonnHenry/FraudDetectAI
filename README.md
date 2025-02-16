@@ -23,14 +23,14 @@ Para ejecutar este proyecto, es necesario tener instalado Python y las siguiente
 
 ### Usando pip:
 ```bash
-pip install -r requirements.txt
+pip install -r config/requirements.txt
 ```
 
 ### Usando conda:
 ```bash
 conda create --name fraud-detect-ai python=3.x
 conda activate fraud-detect-ai
-conda install --file requirements.txt
+conda install --file config/requirements.txt
 ```
 
 ## 📂 Estructura del Proyecto
